@@ -80,7 +80,7 @@ function initShaders(gl,vshader,fshader) {
         var info = gl.getProgramInfoLog(program);
         throw "Could not compile WebGL program. \n\n" + info;
     }
-    console.log('1111111')
+
     gl.useProgram(shaderProgram);//使用着色器
     return true
 }
